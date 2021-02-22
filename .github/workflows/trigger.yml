@@ -12,5 +12,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/kpmg-nl/digital-solutions
-            azure-pipeline-name: 'vws-frontend'
+            azure-pipeline-name: 'VWS-SyncRepo'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN_GITHUB }}
